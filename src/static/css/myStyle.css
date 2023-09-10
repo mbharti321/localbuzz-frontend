@@ -1,0 +1,26 @@
+/* styles.css */
+@import "variables.css";
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--neutral-white);
+  color: var(--neutral-black);
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: var(--primary-background-color);
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: var(--primary-color);
+  color: var(--neutral-white);
+}

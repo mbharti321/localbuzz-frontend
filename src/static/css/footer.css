@@ -1,0 +1,9 @@
+@import "variables.css";
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  background-color: var(--secondary-color);
+  color: var(--secondary-light-blue);
+}

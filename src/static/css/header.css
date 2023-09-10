@@ -1,0 +1,22 @@
+@import "variables.css";
+
+.header-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* justify-items: flex-start;  */
+  width: 100%;
+  background-color: var(--secondary-color);
+  color: var(--secondary-light-blue);
+  padding: 0.5rem;
+
+}
+
+.logo {
+  width: 100px; /* Adjust the width to your preferred size */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Remove extra spacing around the image */
+  margin: 0 auto; /* Center the logo horizontally */
+  border: 2px solid #0072bb; /* Add a border with a color */
+  border-radius: 10px; /* Round the corners */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Apply a subtle shadow */
+}
