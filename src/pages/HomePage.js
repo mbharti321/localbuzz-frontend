@@ -1,12 +1,14 @@
 import Layout from "../templates/Layout";
-
+import CallToAction from "./dashboard/CallToAction";
 export default function HomePage() {
   return (
     <Layout>
-      <div>
-        <h1>Hello world!</h1>
-        <p>This is a simple React website for my business.</p>
-      </div>
+        <CallToAction></CallToAction>
+        {/* <BusinessSearch></BusinessSearch>
+        <Filters></Filters>
+        <WhyChooseUs></WhyChooseUs>
+        <BusinessTypeCards></BusinessTypeCards>
+        <Testimonials></Testimonials> */}
     </Layout>
   );
 }

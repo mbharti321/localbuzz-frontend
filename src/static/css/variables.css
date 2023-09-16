@@ -12,7 +12,7 @@
   --secondary-gray: #808080;
   --secondary-green: #6abd45;
   --secondary-yellow: #ffd700;
-  --secondary-orange: #ff8362;;
+  --secondary-orange: #ff8362;
 }
 
 /* Neutral Colors */
@@ -21,11 +21,17 @@
   --neutral-black: #000000;
 }
 
+:root {
+  --primary: #011627;
+  --accent: #2ec4b6;
+  --primary-button-blue: #205cd4;
+}
+
 /* App colors */
 :root {
-  --primary-color: var(--primary-orange);
-  --secondary-color: var(--primary-deep-blue);
+  --primary-color: var(--secondary-green);
+  --secondary-color: #011627;
   --third-color: var(--secondary-gray);
   --primary-background-color: var(--neutral-white);
-  --secondary-background-color: var(--secondary-orange)
+  --secondary-background-color: var(--secondary-orange);
 }

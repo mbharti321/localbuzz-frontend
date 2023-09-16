@@ -2,21 +2,63 @@
 
 .header-container {
   display: flex;
-  /* justify-content: space-between; */
-  /* justify-items: flex-start;  */
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   background-color: var(--secondary-color);
-  color: var(--secondary-light-blue);
-  padding: 0.5rem;
-
+  color: #000000;
+  padding: 15px 0px;
 }
 
 .logo {
-  width: 100px; /* Adjust the width to your preferred size */
-  height: auto; /* Maintain the aspect ratio */
-  display: block; /* Remove extra spacing around the image */
-  margin: 0 auto; /* Center the logo horizontally */
-  border: 2px solid #0072bb; /* Add a border with a color */
-  border-radius: 10px; /* Round the corners */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Apply a subtle shadow */
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 0;
+  padding: 0;
+  border-radius: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  background-color: var(--primary);
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: stretch;
+}
+
+.nav {
+  padding: 20px 25px 15px;
+  color: #fdfffc;
+  text-align: center;
+  text-decoration: none;
+  border-bottom: 5px solid var(--primary);
+}
+
+.nav:hover {
+  background-color: var(--accent);
+  border-bottom: 5px solid var(--accent);
+}
+
+.active {
+  border-bottom: 5px solid var(--accent);
+}
+
+
+.header-button {
+  font-weight: 400;
+  background-color: aliceblue;
+  color: #000 !important;
+  border-radius: 20px;
+}
+
+.header-button :hover {
+  background-color: var(--primary);
+  color: #fdfffc !important;
 }

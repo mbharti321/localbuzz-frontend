@@ -2,8 +2,9 @@
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  justify-items: center;
+  width: 100%;
   background-color: var(--secondary-color);
-  color: var(--secondary-light-blue);
+  align-items: center;
+  justify-content: center;
+  color: #fff;
 }
