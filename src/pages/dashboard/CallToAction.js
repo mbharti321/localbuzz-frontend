@@ -4,7 +4,7 @@ import heroImg from "../../static/images/hero-image.webp";
 function CallToAction() {
   return (
     <div className="sub-container primary-background">
-      <div className="block-container">
+      <div className="block-container primary-background">
         <section className="cta">
           <div className="cta-content">
             <h2>Ready to find the perfect business?</h2>
@@ -19,7 +19,7 @@ function CallToAction() {
                 value=""
               />
               <div className="cta-button">
-                <button>Get Started</button>
+                <button>Search</button>
               </div>
             </form>
           </div>

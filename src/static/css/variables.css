@@ -26,12 +26,13 @@
   --accent: #2ec4b6;
   --primary-button-blue: #205cd4;
 }
-
+:root {
+  --primary-background-color: var(--neutral-white);
+  --secondary-background-color: var(--secondary-orange);
+}
 /* App colors */
 :root {
   --primary-color: var(--secondary-green);
   --secondary-color: #011627;
   --third-color: var(--secondary-gray);
-  --primary-background-color: var(--neutral-white);
-  --secondary-background-color: var(--secondary-orange);
 }

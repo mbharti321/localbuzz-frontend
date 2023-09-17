@@ -50,13 +50,19 @@ body {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  /* padding: 0 2rem; */
-  background-color: var(--secondary-light-blue);
+  padding: 2rem 0;
+  /* background-color: var(--secondary-light-blue); */
   flex-direction: column;
 }
+/* Background classes */
 .primary-background {
   background-color: var(--secondary-light-blue);
 }
+.white-background {
+  background-color: var(--neutral-white);
+}
+/* Background classes */
+
 button {
   background-color: var(--primary-button-blue);
   color: var(--neutral-white);
@@ -70,5 +76,5 @@ button {
 
 button :hover {
   background-color: var(--secondary-light-blue) !important;
-  color: var(--secondary-color);  
+  color: var(--secondary-color);
 }
