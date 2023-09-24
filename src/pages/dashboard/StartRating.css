@@ -1,0 +1,30 @@
+/* Container for the star rating */
+.star-rating {
+  display: inline-block;
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #FFD700; /* Set the star color */
+  padding: 0 0 0 1rem
+}
+
+/* Individual star */
+.star {
+  display: inline-block;
+  width: 1em; /* Adjust the width as needed */
+  text-align: center;
+}
+
+/* Style for a full star */
+.full-star {
+  color: #FFD700; /* Set the color for full stars */
+}
+
+/* Style for a half star */
+.half-star {
+  color: #FFD700; /* Set the color for half stars */
+}
+
+
+/* Style for an empty star */
+.empty-star {
+  color: #ccc; /* Set the color for empty stars */
+}

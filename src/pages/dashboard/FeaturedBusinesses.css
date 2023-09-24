@@ -31,11 +31,11 @@
 
 .featured-business-card {
   display: flex;
-  flex: 0 0 calc(25% - 15px);
-  flex-direction: row;
+  /* flex: 0 0 calc(25% - 15px); */
+  flex: 1;
+  flex-direction: column;
   padding: 20px 25px;
-  align-items: center;
-  align-content: center;
+  /* align-items: center; */
   border-radius: 10px;
   margin-right: 15px;
   margin-bottom: 15px;
@@ -43,11 +43,42 @@
   transition: transform 0.3s ease;
   cursor: pointer;
   background-color: #fff;
+  border-left: 4px solid rgba(0, 0, 0, 0);
 }
-
+/* CSS for the card on hover */
+.featured-business-card:hover {
+  transform: translateY(3px);
+  border-left: solid 4px rgb(0, 255, 128);
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
 .featured-business-card .header {
   display: flex;
-  align-items: top;
+  /* justify-content: space-between; */
+  /* align-items: top; */
+}
+
+.header-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0.5rem;
+}
+.header-details .business-title {
+  padding-bottom: 10px;
+  font-size: 16px;
+}
+.header-details .row2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.business-category {
+  padding: 5px;
+  background-color: #ddd7d7;
+  border-radius: 5px;
+}
+.row3 {
+  display: flex;
 }
 .featured-business-card .header img {
   width: 150px;
@@ -56,6 +87,12 @@
 .featured-business-card .header h5 {
   margin: 0 0 0 1rem;
 }
+
+.business-description {
+  margin-top: 10px;
+}
+
+
 
 /* 
 .featured-business-card {

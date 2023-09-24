@@ -5,13 +5,37 @@ import maxGreenBazaar from "../../static/images/business/max-green-bazaar.jpg";
 
 const featuredBusinessesData = [
   {
-    title: "Max Green Bazaar",
+    title: "Max Super Bazaar",
     category: "Supermarket",
-    rating: "5",
+    rating: 3,
     imageSrc: maxGreenBazaar,
     location: "Bengaluru",
     description: "Max Green Bazaar is one of the best for daily needs shopping",
   },
+  {
+    title: "Max Green Mart",
+    category: "Supermarket",
+    rating: 4,
+    imageSrc: maxGreenBazaar,
+    location: "Jamui",
+    description: "Max Green Bazaar is one of the best for daily needs shopping. Max Green Bazaar is one of the best for daily needs shopping",
+  },
+  {
+    title: "Goolgle",
+    category: "IT/Tech",
+    rating: 2,
+    imageSrc: maxGreenBazaar,
+    location: "Bengaluru",
+    description: "Max Green Bazaar is one of the best for daily needs shopping",
+  },
+  // {
+  //   title: "Max Super Bazaar",
+  //   category: "Supermarket",
+  //   rating: 5,
+  //   imageSrc: maxGreenBazaar,
+  //   location: "Delhi",
+  //   description: "Max Green Bazaar is one of the best for daily needs shopping",
+  // },
 ];
 function FeaturedBusinesses() {
   return (
