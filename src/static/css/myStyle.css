@@ -10,6 +10,12 @@ body {
   padding: 0;
 }
 
+/* h1, h2,h3, h4, h5, h6{
+  margin: 0;
+} */
+p {
+  margin: 0;
+}
 /* .main-container {
   display: flex;
   width: 100%;
@@ -40,7 +46,7 @@ body {
   display: flex;
   width: 100%;
   margin: 0 auto;
-  /* padding: 0 2rem; */
+  /* padding: 0 0 2rem 0; */
   background-color: var(--secondary-color);
   flex-direction: column;
 }
@@ -50,7 +56,7 @@ body {
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  /* padding: 2rem 0; */
+  /* padding: 1rem 0; */
   /* background-color: var(--secondary-light-blue); */
   flex-direction: column;
 }
@@ -60,6 +66,9 @@ body {
 }
 .white-background {
   background-color: var(--neutral-white);
+}
+.yellow-background {
+  background-color: var(--neutral-yellow);
 }
 /* Background classes */
 

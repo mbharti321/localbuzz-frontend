@@ -1,5 +1,6 @@
 import React from "react";
 import heroImg from "../../static/images/hero-image.webp";
+import "./CallToAction.css";
 
 function CallToAction() {
   return (
@@ -11,7 +12,7 @@ function CallToAction() {
             <p>Search and discover a wide range of businesses in your area.</p>
             <form>
               <input
-                class="search-input-field"
+                className="search-input-field"
                 placeholder="Company or category"
                 name="query"
                 type="search"

@@ -7,17 +7,17 @@ export default function Header() {
       <div className="block-container" style={{padding:"0 0"}}>
         <header className="header-container">
           <a href="#"><img src={logo} alt="Local Buzz" className="logo"></img></a>
-          <div class="nav-bar">
-            <a href="#" class="nav active">
+          <div className="nav-bar">
+            <a href="#" className="nav active">
               Home
             </a>
-            <a href="#" class="nav">
+            <a href="#" className="nav">
               Search
             </a>
-            <a href="#" class="nav">
+            <a href="#" className="nav">
               Following
             </a>
-            <a href="#" class="nav header-button">
+            <a href="#" className="nav header-button">
               For business
             </a>
           </div>

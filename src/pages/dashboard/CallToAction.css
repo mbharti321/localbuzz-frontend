@@ -1,0 +1,43 @@
+/*~~~~~~~~~~~~~~~~~~~ Call to Action ~~~~~~~~~~~~~~~~~~~~~~~~*/
+.cta {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 2rem 0;
+  }
+  .cta-content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /* justify-content: space-between; */
+  }
+  .cta-content h2 {
+    margin-bottom: 0rem;
+    font-size: 3rem;
+    color: #c1481f;
+  }
+  .cta-content p {
+    margin: 1rem 0;
+    font-size: 2rem;
+    color: #342d2b;
+  }
+  
+  .cta-button {
+    display: flex;
+    justify-content: end;
+    margin-top: 10px;
+  }
+  
+  .search-input-field {
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+  }
+  
+  .cta img {
+    width: 200%;
+    /* height: 100px; */
+  }
+  /*~~~~~~~~~~~~~~~~~~~ Call to Action ~~~~~~~~~~~~~~~~~~~~~~~~*/
+  

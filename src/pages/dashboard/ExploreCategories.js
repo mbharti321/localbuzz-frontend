@@ -1,6 +1,7 @@
 import React from "react";
 import CategoryCard from "./CategoriesCard";
 import categoriesData from "./categoriesData";
+import "./exploreCategories.css";
 
 function ExploreCategories() {
   return (
@@ -9,9 +10,9 @@ function ExploreCategories() {
         <section className="explore-categories">
           {/* \title row */}
           <div className="explore-title-row">
-            <h2>Explore Categories</h2>
+            <h2>Popular Business Categories</h2>
             <form>
-              <div className="cta-button">
+              <div className="button">
                 <button>View all</button>
               </div>
             </form>
@@ -20,7 +21,7 @@ function ExploreCategories() {
             {/* Load all category cards */}
             {categoriesData.map((category, index) => (
               <CategoryCard
-                index={index}
+                key={index}
                 categoryName={category.title}
                 iconSrc={category.iconSrc}
               />
