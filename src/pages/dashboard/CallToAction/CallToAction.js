@@ -1,5 +1,5 @@
 import React from "react";
-import heroImg from "../../static/images/hero-image.webp";
+import heroImg from "../../../static/images/hero-image.webp";
 import "./CallToAction.css";
 
 function CallToAction() {

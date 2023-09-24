@@ -1,5 +1,5 @@
 import Layout from "../templates/Layout";
-import CallToAction from "./dashboard/CallToAction";
+import CallToAction from "./dashboard/CallToAction/CallToAction";
 import ExploreCategories from "./dashboard/ExploreCategories";
 import FeaturedBusinesses from "./dashboard/FeaturedBusinesses";
 

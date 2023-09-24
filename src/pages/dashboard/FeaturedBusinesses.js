@@ -9,7 +9,7 @@ const featuredBusinessesData = [
     category: "Supermarket",
     rating: 3,
     imageSrc: maxGreenBazaar,
-    location: "Bengaluru",
+    location: "Delhi",
     description: "Max Green Bazaar is one of the best for daily needs shopping",
   },
   {
