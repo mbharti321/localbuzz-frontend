@@ -1,9 +1,9 @@
 /* Container for the star rating */
 .star-rating {
   display: inline-block;
-  font-size: 24px; /* Adjust the font size as needed */
+  font-size: 18px; /* Adjust the font size as needed */
   color: #FFD700; /* Set the star color */
-  padding: 0 0 0 1rem
+  padding: 0 0.5rem 0 1rem
 }
 
 /* Individual star */

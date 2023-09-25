@@ -65,7 +65,7 @@ function FeaturedBusinesses() {
             })}
           </div>
           <form>
-            <div className="button">
+            <div className="view-all">
               <button>View all</button>
             </div>
           </form>

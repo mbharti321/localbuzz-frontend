@@ -70,6 +70,9 @@ p {
 .yellow-background {
   background-color: var(--neutral-yellow);
 }
+.green-background {
+  background-color: #04da8d;
+}
 /* Background classes */
 
 button {
@@ -84,6 +87,8 @@ button {
 }
 
 button :hover {
-  background-color: var(--secondary-light-blue) !important;
-  color: var(--secondary-color);
+  background-color: white !important;
+  color: var(--primary-button-blue) !important;
+  /* background-color: var(--secondary-light-blue) !important;
+  color: var(--secondary-color); */
 }

@@ -4,6 +4,7 @@
     flex-direction: row;
     align-items: center;
     padding: 2rem 0;
+    overflow: hidden;
   }
   .cta-content {
     display: flex;
@@ -37,6 +38,7 @@
   
   .cta img {
     width: 200%;
+    /* overflow: hidden; */
     /* height: 100px; */
   }
   /*~~~~~~~~~~~~~~~~~~~ Call to Action ~~~~~~~~~~~~~~~~~~~~~~~~*/

@@ -32,6 +32,11 @@
   transition: transform 0.3s ease;
   cursor: pointer;
 }
+
+/* Remove right margin from all last children */
+.category-card:not(:last-child) {
+  margin-right: 0;
+}
 /* CSS for the card on hover */
 .category-card:hover {
   transform: translateY(3px);

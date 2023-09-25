@@ -41,13 +41,21 @@
   margin-bottom: 15px;
   box-shadow: 0px 0px 4px #888888;
   transition: transform 0.3s ease;
-  cursor: pointer;
   background-color: #fff;
   border-left: 4px solid rgba(0, 0, 0, 0);
 }
+/* Remove right margin from the last card */
+.featured-business-card:last-child {
+  margin-right: 0;
+}
+
+/* Remove right margin from all last children */
+/* .featured-business-card:not(:last-child) {
+  margin-right: 0;
+} */
 /* CSS for the card on hover */
 .featured-business-card:hover {
-  transform: translateY(3px);
+  /* transform: translateY(3px); */
   border-left: solid 4px rgb(0, 255, 128);
   /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
 }
@@ -89,11 +97,46 @@
 }
 
 .business-description {
-  margin-top: 10px;
+  margin: 10px 0;
+  flex-grow: 4;
+  line-height: 20px;
 }
 
+.see-more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* align-content: flex-end; */
+}
+.see-more a {
+  display: flex;
+  font-size: 1rem;
+  padding: 5px 10px;
+  border: solid 2px#68beff;
+  /* background-color: #7dc5fb46; */
+  color: #205cd4;
+  cursor: pointer;
+  text-decoration: none;
+  align-items: center;
+  border-radius: 10px;
+  /* margin: 10px 0; */
+}
+.see-more .arrow {
+  padding-left: 5px;
+  transition: transform 0.3s ease;
+}
+.see-more a:hover {
+  background-color: #1b96f446;
 
-
+  .arrow {
+    transform: translateX(3px);
+  }
+}
+.view-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
 /* 
 .featured-business-card {
   display: flex;

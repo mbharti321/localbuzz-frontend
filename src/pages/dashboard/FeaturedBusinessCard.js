@@ -22,12 +22,16 @@ function FeaturedBusinessCard(props) {
             <h5 className="business-location">📍{business.location}</h5>
           </div>
           <div className="row3">
-              <StarRating rating={business.rating} />
-              
+            <StarRating rating={business.rating} />
           </div>
         </div>
       </div>
       <p className="business-description">{business.description}</p>
+      <div className="see-more">
+        <a href="#">
+          <span>See more</span> <span className="arrow">🠆</span>
+        </a>
+      </div>
 
       {/* 
       <div className="featured-business-card">

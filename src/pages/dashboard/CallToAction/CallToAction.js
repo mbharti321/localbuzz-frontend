@@ -4,8 +4,8 @@ import "./CallToAction.css";
 
 function CallToAction() {
   return (
-    <div className="sub-container primary-background">
-      <div className="block-container primary-background">
+    <div className="sub-container green-background">
+      <div className="block-container green-background">
         <section className="cta">
           <div className="cta-content">
             <h2>Ready to find the perfect business?</h2>
