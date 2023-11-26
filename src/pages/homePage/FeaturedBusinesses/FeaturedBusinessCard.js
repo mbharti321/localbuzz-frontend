@@ -1,5 +1,5 @@
 import React from "react";
-import StarRating from "./StartRating";
+import StarRating from "../../../utilsComponents/StarRatings/StartRating";
 // {
 //   title: "Max Green Bazaar",
 //   category: "Supermarket",
@@ -25,7 +25,7 @@ function FeaturedBusinessCard(props) {
             <StarRating rating={business.rating} />
           </div>
         </div>
-      </div>
+      </div>organise 
       <p className="business-description">{business.description}</p>
       <div className="see-more">
         <a href="#">

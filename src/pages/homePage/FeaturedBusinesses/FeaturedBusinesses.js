@@ -1,7 +1,7 @@
 import React from "react";
 import FeaturedBusinessCard from "./FeaturedBusinessCard";
 import "./FeaturedBusinesses.css";
-import maxGreenBazaar from "../../static/images/business/max-green-bazaar.jpg";
+import maxGreenBazaar from "../../../static/images/business/max-green-bazaar.jpg";
 
 const featuredBusinessesData = [
   {

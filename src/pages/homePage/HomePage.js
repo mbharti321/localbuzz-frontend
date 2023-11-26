@@ -1,8 +1,8 @@
-import Layout from "../templates/Layout";
-import CallToAction from "./dashboard/CallToAction/CallToAction";
-import ExploreCategories from "./dashboard/ExploreCategories";
-import FeaturedBusinesses from "./dashboard/FeaturedBusinesses";
-import Testimonials from "./dashboard/Testimonials/Testimonials";
+import Layout from "../../templates/Layout";
+import CallToAction from "./CallToAction/CallToAction";
+import ExploreCategories from "./ExploreCategories/ExploreCategories";
+import FeaturedBusinesses from "./FeaturedBusinesses/FeaturedBusinesses";
+import Testimonials from "./Testimonials/Testimonials";
 export default function HomePage() {
   return (
     <Layout>
