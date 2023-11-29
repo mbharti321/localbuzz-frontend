@@ -4,7 +4,6 @@ import App from "./App";
 import "./static/css/myStyle.css";
 import "./static/css/footer.css";
 import "./static/css/header.css";
-import "./static/css/homePage.css";
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

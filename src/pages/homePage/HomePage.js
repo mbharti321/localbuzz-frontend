@@ -1,3 +1,4 @@
+import React from "react";
 import Layout from "../../templates/Layout";
 import CallToAction from "./CallToAction/CallToAction";
 import ExploreCategories from "./ExploreCategories/ExploreCategories";
@@ -9,7 +10,7 @@ export default function HomePage() {
       <CallToAction></CallToAction>
       <ExploreCategories></ExploreCategories>
       <FeaturedBusinesses></FeaturedBusinesses>
-      <Testimonials></Testimonials> 
+      <Testimonials></Testimonials>
       {/* <BusinessSearch></BusinessSearch>
         <Filters></Filters>
         <WhyChooseUs></WhyChooseUs>

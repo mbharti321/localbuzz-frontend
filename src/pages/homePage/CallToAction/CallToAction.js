@@ -1,8 +1,15 @@
 import React from "react";
 import heroImg from "../../../static/images/hero-image.webp";
 import "./CallToAction.css";
+import { useNavigate } from "react-router-dom";
 
 function CallToAction() {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/search");
+  };
+
   return (
     <div className="sub-container green-background">
       <div className="block-container green-background">
@@ -20,7 +27,7 @@ function CallToAction() {
                 value=""
               />
               <div className="cta-button">
-                <button>Search</button>
+                <button onClick={handleClick}>Search</button>
               </div>
             </form>
           </div>
