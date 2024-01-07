@@ -3,7 +3,9 @@ import Layout from "../../templates/Layout";
 export default function Search() {
   return (
     <Layout>
-      <h2>Search</h2>
+      <div className="sub-container green-background">
+        <h2>Search</h2>
+      </div>
     </Layout>
   );
 }

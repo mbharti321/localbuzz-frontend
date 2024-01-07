@@ -44,6 +44,7 @@
 .nav:hover {
   background-color: var(--accent);
   border-bottom: 5px solid var(--accent);
+  border-radius: 20px;
 }
 
 .active {
